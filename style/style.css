@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif,"Pacifico";
+}
+body
+{
+    background: #eee2dc;
+    display: flex;
+    flex-direction: column;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.box
+{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 23px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+.form-box
+{
+    width: 450px;
+    margin: 0px 10px;
+}
+.form-box header
+{
+    font-family: "Pacifico";
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    align-self: center;
+    color: black;
+}
+
+.form-box form .field
+{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    color: #000000;
+}
+
+.form-box form .input input
+{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #585858;
+}
+
+.regis
+{
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 72%;
+}
+
+.regis p
+{
+    align-items: center;
+}
+
+.regis a{
+    color: white;
+    display: inline-flex;
+
+    text-align: inherit;
+}
+
+.btn
+{
+    height: 35px;
+    background: #123c69;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    padding: 0px 10px;
+}
+
+.btn:hover
+{
+    opacity: 0.82;
+}
+
+
+.submit
+{
+    width: 100%;
+}
+
+
+.backwards
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/*dashboard.php*/
+.nav{
+    background-color: #edc7b7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+.nav a{
+    display: flex;
+}
+
+.right-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+head
+{
+    font-family: "Pacifico";
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    align-self: center;
+    color: white;
+}
+
+
+.right-links a
+{
+    display: inherit;
+    margin-right: 5px;
+}
+
+.logo
+{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+}
+
+main
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:840px){
+    .main-box .top{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin-bottom: 1em;
+    background-color: #bab2b5;
+    margin-top: 10px;
+    
+} 
+th,
+td {
+    padding: 0.75em;
+    border: 3px solid #e3e3e3;
+    color: #000000;
+    display: table-cell;
+    vertical-align: inherit;
+    padding-bottom: 10px;
+}
+
+th {
+    font-weight: bold;
+    background-color: #bab2b5;
+}
+
+tr:nth-child(even) {
+    background-color: #abb5b2;
+}
+

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif,"Pacifico";
+}
+body
+{
+    background: #eee2dc;
+    display: flex;
+    flex-direction: column;
+    color: #123c69;
+}
+
+.btn
+{
+    height: 35px;
+    background: #123c69;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    padding: 0px 10px;
+}
+
+.btn:hover
+{
+    opacity: 0.82;
+}
+
+.nav{
+    background-color: #edc7b7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+.nav a{
+    display: flex;
+}
+
+.right-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+head
+{
+    font-family: "Pacifico";
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    align-self: center;
+    color: white;
+}
+
+
+.right-links a
+{
+    display: inherit;
+    margin-right: 5px;
+}
+
+.logo
+{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+}
+
+main
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:840px){
+    .main-box .top{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.input
+{
+    height: 40px;
+    width: 100%;
+    resize: none;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #585858;
+	
+}
+.form-area
+{
+    background: inherit;
+    padding: 5px 10px 10px 15px;
+    border-radius: 4px;
+    border: none;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;    width: 70%;
+
+}
+
+#userform
+{
+	align-self: center;
+	margin-top: 5px;
+    width: 90%;
+    height: 100%;
+    min-height: 25em;
+    overflow: auto;
+}
+
+
